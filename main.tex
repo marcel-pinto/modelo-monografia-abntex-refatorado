@@ -70,31 +70,31 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 
 \imprimirfolhaderosto*
 
-\import{./pretextuais}{fichaCatalograficaTemporaria}
+\import{./pretextuais/}{fichaCatalograficaTemporaria}
 %  Quando receber a ficha final trocar pelo codigo abaixo
 % \begin{fichacatalografica}
 %     \includepdf{fig_ficha_catalografica.pdf}
 % \end{fichacatalografica}
 
-\import{./pretextuais}{errata}
+\import{./pretextuais/}{errata}
 
-\import{./pretextuais}{folhaDeAprovacaoTemporaria}
+\import{./pretextuais/}{folhaDeAprovacaoTemporaria}
 %  Quando receber a folha de aprovacao final trocar pelo codigo abaixo
 % \begin{folhadeaprovacao}
 % \includepdf{folhadeaprovacao_final.pdf}
 % \end{folhadeaprovacao}
 
-\import{./pretextuais}{dedicatoria}
+\import{./pretextuais/}{dedicatoria}
 
-\import{./pretextuais}{agradecimentos}
+\import{./pretextuais/}{agradecimentos}
 
-\import{./pretextuais}{epigrafe}
+\import{./pretextuais/}{epigrafe}
 
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
-\import{./pretextuais}{resumo}
+\import{./pretextuais/}{resumo}
 
 
-\import{./pretextuais}{abstract}
+\import{./pretextuais/}{abstract}
 
 % inserir lista de ilustrações
 \pdfbookmark[0]{\listfigurename}{lof}
@@ -112,10 +112,10 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 \cleardoublepage
 
 % inserir lista de abreviaturas e siglas
-\import{./pretextuais}{siglas}
+\import{./pretextuais/}{siglas}
 
 % inserir lista de símbolos
-\import{./pretextuais}{simbolos}
+\import{./pretextuais/}{simbolos}
 
 % inserir o sumario
 \pdfbookmark[0]{\contentsname}{toc}
@@ -124,16 +124,16 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 
 \textual
 
-\import{./textuais}{introducao}
+\import{./textuais/}{introducao}
 
 \part{Preparação da pesquisa}
-\import{./textuais/preparacaoDaPesquisa}{preparacaoDaPesquisa}
+\import{./textuais//preparacaoDaPesquisa}{preparacaoDaPesquisa}
 
 \part{Referenciais teóricos}
-\import{./textuais}{referenciaisTeoricos}
+\import{./textuais/}{referenciaisTeoricos}
 
 \part{Resultados}
-\import{./textuais}{resultados}
+\import{./textuais/}{resultados}
 
 % ----------------------------------------------------------
 % Finaliza a parte no bookmark do PDF
@@ -142,15 +142,15 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 % ----------------------------------------------------------
 \phantompart
 
-\import{./textuais}{conclusao}
+\import{./textuais/}{conclusao}
 
 \postextual
 
 \bibliography{abntex2-modelo-references}
 
-\import{./postextuais}{apendice}
+\import{./postextuais/}{apendice}
 
-\import{./postextuais}{anexo}
+\import{./postextuais/}{anexo}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
